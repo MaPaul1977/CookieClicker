@@ -1,12 +1,11 @@
+// Load Garden Helper
+Game.LoadMod('https://rawgit.com/yannprada/cookie-garden-helper/master/cookie-garden-helper.js');
+
 	// Stop runAllAutomation
 clearInterval(runAllAutomation);
 
 	// Stops the machine from marching forward.
 clearInterval(StonkManager);
-
-// Load Garden Helper
-Game.LoadMod('https://rawgit.com/yannprada/cookie-garden-helper/master/cookie-garden-helper.js');
-
 
 	// Get current resource averages. Run whenever curious. Displays Ticker Symbol, % Change In Last Tick, Current Average in console.
 for (i = 0; i < resourceAverage.length; i++) {
