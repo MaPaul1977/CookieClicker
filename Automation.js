@@ -73,7 +73,7 @@ function Stonks(){
 	if (document.querySelector("#bankNextTick").innerText == "Next tick in 55 seconds.") {
 		if (ticks < 2000) {ticks++};
 		updateAverages(ticks);
-		BuySell();
+		if (ticks > 10) {BuySell()};
 	}
 };
 	
