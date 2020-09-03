@@ -1,15 +1,15 @@
 	// Completely experimental Stock Market manager.
 
 	/*
-	// These are two individual commands for stopping the StonkManager, and getting some current stock information, respectively.
-	// Stops the machine from marching forward.
-clearInterval(StonkManager);
-
-	// Get current resource averages. Run whenever curious. Displays Ticker Symbol, % Change In Last Tick, Current Average in console.
+	// Get current resource averages. Run whenever curious. Displays Ticker Symbol, % Change In Last Tick, Current Average in console. 
+	// You will have to copy this code into the console separately.
 for (i = 0; i < resourceAverage.length; i++) {
 	console.log(document.querySelector("#bankGood-" + i + " > div:nth-child(1) > div:nth-child(2)").innerText + " " + resourceAverage[i]);
 }
 	*/
+
+	// Stops the machine from marching forward.
+clearInterval(StonkManager);
 
 	// Begins tracking the number of ticks which have occurred since starting the script. Useful for long averages.
 var ticks = 1;
